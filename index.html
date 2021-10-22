@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.jpg">
+    <title>Word Pronounciation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Word Pronounciation Website</h1>
+
+        <br>
+
+        <h4>Enter The Word In The Text Inputbox</h4>
+
+        <br>
+        <br>
+
+        <div class="wrapper">
+            <div class="input-data">
+               <input type="text" required id="word">
+               <div class="underline"></div>
+               <label>Word</label>
+            </div>
+         </div>
+         <br>
+         <br>
+
+         <button class="btn btn-secondary" onclick="pronounce();">Pronounce</button>
+    </center>
+</body>
+<script src="main.js"></script>
+</html>
